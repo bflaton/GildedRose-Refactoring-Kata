@@ -1,0 +1,7 @@
+* text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.cmd text eol=crlf
+*.jar binary
+*.png binary
+*.pdf binary

@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Python 3",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.debugpy",
+				"ms-python.vscode-pylance",
+				"donjayamanne.git-extension-pack",
+				"ms-python.black-formatter"
+			],
+			"settings": {
+				"editor.defaultFormatter": "ms-python.black-formatter",
+				"editor.formatOnSave": true,
+				"editor.codeActionsOnSave": {
+					"source.organizeImports": "explicit",
+					"source.fixAll": "explicit"
+				},
+				"python.analysis.extraPaths": [
+					"python"
+				],
+				"python.analysis.fixAll": [
+					"source.unusedImports"
+				],
+				"python.testing.unittestArgs": [
+					"-v",
+					"-s",
+					"python",
+					"-p",
+					"test_*.py"
+				],
+				"python.testing.pytestEnabled": false,
+				"python.testing.unittestEnabled": true
+			}
+		}
+	}
+}
