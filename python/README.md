@@ -8,7 +8,7 @@ It is strongly suggested to use this archive's devcontainer environment to work 
 
 ## Prerequisites
 
-Best used with [Docker](https://pww.swportal.philips.com/Shopping/requestItem/search?query=docker&viewMode=list&currentPage=1) and [VS Code](https://code.visualstudio.com/) with the [`Remote Containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) plug-in installed.
+Best used with [Docker](https://www.docker.com/products/docker-desktop/) and [VS Code](https://code.visualstudio.com/) with the [`Remote Containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) plug-in installed.
 
 ## Run the unit tests from the Command-Line
 
