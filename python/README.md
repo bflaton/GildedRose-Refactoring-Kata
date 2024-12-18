@@ -4,7 +4,7 @@ For exercise instructions see [top level README](../README.md)
 
 It is strongly suggested to use this archive's devcontainer environment to work in this python playground! Check the prerequisites before clicking below button!
 
-[![Open in Dev Container](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/philips-internal/amp-kata-starter)
+[![Open in Dev Container](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/bflaton/GildedRose-Refactoring-Kata)
 
 ## Prerequisites
 
