@@ -2,7 +2,13 @@
 
 For exercise instructions see [top level README](../README.md)
 
-Suggestion: create a python virtual environment for this project. See the [documentation](https://docs.python.org/3/library/venv.html)
+It is strongly suggested to use this archive's devcontainer environment to work in this python playground! Check the prerequisites before clicking below button!
+
+[![Open in Dev Container](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/philips-internal/amp-kata-starter)
+
+## Prerequisites
+
+Best used with [Docker](https://pww.swportal.philips.com/Shopping/requestItem/search?query=docker&viewMode=list&currentPage=1) and [VS Code](https://code.visualstudio.com/) with the [`Remote Containers`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) plug-in installed.
 
 ## Run the unit tests from the Command-Line
 
